@@ -1,0 +1,40 @@
+title-text: ""
+desktop-color: "#000000"
+terminal-font: "Fira Code Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+    top = 40%
+	left = 30%
+	width = 45%
+	height = 50%
+    item_font = "Fira Code Regular 20"
+	item_color = "#cccccc"
+	selected_item_color= "#ffffff"
+    
+	item_height = 22
+	item_padding = 4
+	item_spacing = 1
+	scrollbar = false
+}
+
++ image {
+	top = 10%
+	left = 50%-100
+    file = "gentoo_logo.png"
+}
+
++ label {
+    id = "__timeout__"
+    top = 80%
+    left = 0
+    width = 100%
+    align = "center"
+    font = "Fira Code regular 16"
+    color = "#cccccc"
+    text = "Booting in %d seconds"
+}
