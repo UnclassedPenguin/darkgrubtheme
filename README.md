@@ -1,7 +1,14 @@
 ## To install 
 - Copy the folder darkminimal to /boot/grub/themes/ 
+```shell
+$ sudo cp -r darkminimal /boot/grub/themes/
+```
+
 - Change the theme line in /etc/default/grub to:
+```
     GRUB_THEME="/boot/grub/themes/darkminimal/theme.txt"
+```
+
 - Then either:
 ```shell
 $ sudo update-grub
