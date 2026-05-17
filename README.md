@@ -4,11 +4,9 @@
     GRUB_THEME="/boot/grub/themes/darkminimal/theme.txt"
 - Then either:
 ```shell
-    sudo update-grub
-```
+$ sudo update-grub
 
-    or
+or
 
-```shell
-    sudo grub-mkconfig -o /boot/grub/grub.cfg
+$ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
